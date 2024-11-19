@@ -61,6 +61,32 @@ public:
         }
         cout<<"]\n";
     }
+    
+    void Cut_Paste_Two_largest_Values(list & l){
+        int ct = 0;
+        cNode * PB2 = head;
+        cNode * pTrav = head;
+        cNode * pB = head;
+        cNode * pB2 = NULL;
+        cNode * pBefore = NULL;
+        
+        int max1 = -99999;
+        cNode * pmax1 = NULL;
+        int max2 = -99999;
+        cNode * pmax2 = NULL;
+
+        
+        cNode * pKG;
+        pKG = pBefore->pNext;
+        pBefore->pNext = pmax1->pNext;
+        tail->pNext = pmax2->pNext;
+        tail = pmax2;
+        pmax2->pNext = NULL;
+        pmax1->pExtra->pNext = head;
+        head = pKG;
+        
+    }
+
 };
 
 void Cut_Paste_Two_largest_Values(list & l){
