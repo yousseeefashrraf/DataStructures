@@ -1,0 +1,6 @@
+framework module DSs {
+  umbrella header "DSs.h"
+  export *
+
+  module * { export * }
+}

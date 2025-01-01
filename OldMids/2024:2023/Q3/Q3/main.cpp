@@ -118,18 +118,18 @@ int main(){
     list l;
     int NC;
     cNode * pnn;
+    int nNodes=0;
     int ct=1;
     cNode * pMaster;
     cin>>NC;
     pnn = new cNode();
     ct++;
     cNode * pB;
-    
     cin>>pnn->info;
     l.attach(pnn);
-    
     pB = pnn;
     for( ; ct<= NC;ct++){
+        nNodes = 0;
         pMaster = new cNode();
         pMaster->pNext = pMaster->pDown = NULL;
         cin>>pMaster->info;
@@ -177,7 +177,28 @@ int main(){
     cNode * pTrav = l.head;
     cNode * pTrav2 = l.head;
     cNode * pTrav3 = l.head;
+    ct = 1;
+    int i = 0;
+    int j = 0;
     
+    while (pTrav != NULL) {
+        pTrav2 = pTrav;
+        i = 0;
+        j = 0;
+        while(pTrav2!=NULL && j!=ct){
+            cout<<pTrav2->info<<" ";
+            if(i==ct){
+                pTrav2 = pTrav2->pNext;
+                i = 0;
+                j++;
+            }
+
+            pTrav = pTrav2->pDown;
+        }
+        cout<<endl;
+        
+        pTrav = pTrav->pNext;
+    }
 }
 
 //4

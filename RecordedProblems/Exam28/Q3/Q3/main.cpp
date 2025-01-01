@@ -151,6 +151,14 @@ void MakeList(list & l){
     l.head->pDown->pNext = biggest;
 }
 
+void hello(list &l){
+    if(l.head == NULL){
+        l.head = new cNode();
+        l.head->info = 0;
+    }else{
+        l.head->info++;
+    }
+}
 
 int main(){
     list l;
@@ -229,9 +237,17 @@ int main(){
     newL.listOut();
     cout<<newL.head->pDown->info;
     
+    list listtwo;
+    hello(listtwo);
+    hello(listtwo);
+    hello(listtwo);
+    hello(listtwo);
+    cout<<listtwo.head->info;
+    
 }
 
 
 //input
 
 //3 14 12 34 -5 11 130 15 72 81 95 63 -2 14 33 13 10 56 32 26 93 -3 12 843 240 35 38 12 24 12 176 -3 145 340 404 121 -2 120 75 25 128 315
+

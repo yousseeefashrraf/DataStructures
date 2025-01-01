@@ -1,0 +1,690 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DSs",
+    "printedName": "DSs",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSs"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "cNode",
+        "printedName": "cNode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3DSs5cNodeC5valueSivp",
+            "mangledName": "$s3DSs5cNodeC5valueSivp",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC5valueSivg",
+                "mangledName": "$s3DSs5cNodeC5valueSivg",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC5valueSivs",
+                "mangledName": "$s3DSs5cNodeC5valueSivs",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC5valueSivM",
+                "mangledName": "$s3DSs5cNodeC5valueSivM",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "next",
+            "printedName": "next",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3DSs5cNodeC4nextACSgvp",
+            "mangledName": "$s3DSs5cNodeC4nextACSgvp",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC4nextACSgvg",
+                "mangledName": "$s3DSs5cNodeC4nextACSgvg",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC4nextACSgvs",
+                "mangledName": "$s3DSs5cNodeC4nextACSgvs",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs5cNodeC4nextACSgvM",
+                "mangledName": "$s3DSs5cNodeC4nextACSgvM",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "cNode",
+                "printedName": "DSs.cNode",
+                "usr": "s:3DSs5cNodeC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:3DSs5cNodeCACycfc",
+            "mangledName": "$s3DSs5cNodeCACycfc",
+            "moduleName": "DSs",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:next:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "cNode",
+                "printedName": "DSs.cNode",
+                "usr": "s:3DSs5cNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:3DSs5cNodeC5value4nextACSi_ACSgtcfc",
+            "mangledName": "$s3DSs5cNodeC5value4nextACSi_ACSgtcfc",
+            "moduleName": "DSs",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:3DSs5cNodeC",
+        "mangledName": "$s3DSs5cNodeC",
+        "moduleName": "DSs",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "linkedList",
+        "printedName": "linkedList",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "head",
+            "printedName": "head",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3DSs10linkedListC4headAA5cNodeCSgvp",
+            "mangledName": "$s3DSs10linkedListC4headAA5cNodeCSgvp",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4headAA5cNodeCSgvg",
+                "mangledName": "$s3DSs10linkedListC4headAA5cNodeCSgvg",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4headAA5cNodeCSgvs",
+                "mangledName": "$s3DSs10linkedListC4headAA5cNodeCSgvs",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4headAA5cNodeCSgvM",
+                "mangledName": "$s3DSs10linkedListC4headAA5cNodeCSgvM",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tail",
+            "printedName": "tail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:3DSs10linkedListC4tailAA5cNodeCSgvp",
+            "mangledName": "$s3DSs10linkedListC4tailAA5cNodeCSgvp",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4tailAA5cNodeCSgvg",
+                "mangledName": "$s3DSs10linkedListC4tailAA5cNodeCSgvg",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "DSs.cNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "cNode",
+                        "printedName": "DSs.cNode",
+                        "usr": "s:3DSs5cNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4tailAA5cNodeCSgvs",
+                "mangledName": "$s3DSs10linkedListC4tailAA5cNodeCSgvs",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:3DSs10linkedListC4tailAA5cNodeCSgvM",
+                "mangledName": "$s3DSs10linkedListC4tailAA5cNodeCSgvM",
+                "moduleName": "DSs",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(head:tail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "linkedList",
+                "printedName": "DSs.linkedList",
+                "usr": "s:3DSs10linkedListC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "DSs.cNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cNode",
+                    "printedName": "DSs.cNode",
+                    "usr": "s:3DSs5cNodeC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:3DSs10linkedListC4head4tailAcA5cNodeCSg_AHtcfc",
+            "mangledName": "$s3DSs10linkedListC4head4tailAcA5cNodeCSg_AHtcfc",
+            "moduleName": "DSs",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addLast",
+            "printedName": "addLast(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3DSs10linkedListC7addLast5valueySi_tF",
+            "mangledName": "$s3DSs10linkedListC7addLast5valueySi_tF",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addFirst",
+            "printedName": "addFirst(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3DSs10linkedListC8addFirst5valueySi_tF",
+            "mangledName": "$s3DSs10linkedListC8addFirst5valueySi_tF",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listOut",
+            "printedName": "listOut()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3DSs10linkedListC7listOutyyF",
+            "mangledName": "$s3DSs10linkedListC7listOutyyF",
+            "moduleName": "DSs",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:3DSs10linkedListC",
+        "mangledName": "$s3DSs10linkedListC",
+        "moduleName": "DSs",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

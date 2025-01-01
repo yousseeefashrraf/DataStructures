@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.3.300 clang-1600.0.20.10)
+// swift-module-flags: -target x86_64-apple-macos14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-opaque-type-erasure -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DSs
+@_exported import DSs
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class cNode {
+  @objc deinit
+}
+public class linkedList {
+  #if compiler(>=5.3) && $NoncopyableGenerics
+  public init(head: DSs.cNode! = nil, tail: DSs.cNode! = nil)
+  #else
+  public init(head: DSs.cNode! = nil, tail: DSs.cNode! = nil)
+  #endif
+  public func addLast(value: Swift.Int)
+  public func addFirst(value: Swift.Int)
+  public func listOut()
+  @objc deinit
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LinkedListClass/LinkedListClass.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Assignment_1/q1/q1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Assignment_1/q2/q2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:2D_LinkedList/2D_LinkedList.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Assignment_2"
+      name = "Assignment_2">
+      <Group
+         location = "group:Q1"
+         name = "Q1">
+         <FileRef
+            location = "group:Q1.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Q1"
+            name = "Q1">
+            <FileRef
+               location = "group:main.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Q2"
+         name = "Q2">
+         <FileRef
+            location = "group:Q2.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Q2"
+            name = "Q2">
+            <FileRef
+               location = "group:main.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Q3"
+         name = "Q3">
+         <FileRef
+            location = "group:Q3.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Q3"
+            name = "Q3">
+            <FileRef
+               location = "group:main.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Q4"
+         name = "Q4">
+         <FileRef
+            location = "group:Q4.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Q4"
+            name = "Q4">
+            <FileRef
+               location = "group:main.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Assignment_3"
+      name = "Assignment_3">
+      <FileRef
+         location = "group:Assigment_3.docx">
+      </FileRef>
+      <Group
+         location = "group:Q1"
+         name = "Q1">
+         <FileRef
+            location = "group:Q1.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Q1"
+            name = "Q1">
+            <FileRef
+               location = "group:main.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
